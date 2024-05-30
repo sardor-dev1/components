@@ -1,0 +1,1 @@
+.featured{display:flex;flex-direction:column;gap:40px;padding-top:40px}.featured__card{display:flex;align-items:center;gap:18px}.featured__card__info{display:flex;flex-direction:column}.featured__card__info__text{width:100%;max-width:600px}@media(max-width: 700px){.featured__card{flex-direction:column;align-items:baseline}}

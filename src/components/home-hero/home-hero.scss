@@ -1,0 +1,35 @@
+.hero {
+    padding-top: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    &__info {
+        &__title {
+            width: 100%;
+            max-width: 500px;
+            font-size: 44px;
+            font-weight: 700;
+        }
+        &__text {
+            font-size: 14px;
+            font-weight: 400;
+            width: 100%;
+            max-width: 490px;
+            padding: 40px 0;
+        }
+    }
+
+    @media (max-width:1000px) {
+        flex-direction: column;
+        gap: 30px;
+
+        &__info {
+            &__title {
+                font-size: 32px;
+            }
+            &__text {
+                padding: 25px 0;
+            }
+        }
+    }
+}

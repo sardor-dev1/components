@@ -1,0 +1,34 @@
+.posts {
+  margin-top: 40px;
+  background-color: #edf7fa;
+}
+.posts__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 25px 0;
+}
+.posts__header__link a {
+  text-decoration: none;
+}
+.posts__cards {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
+  padding-bottom: 30px;
+  margin: 40px;
+}
+.posts__card {
+  border-radius: 10px;
+  background-color: #ffffff;
+  width: 100%;
+  max-width: 450px;
+  padding: 15px;
+}
+.posts__card__body {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
