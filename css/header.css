@@ -9,7 +9,11 @@
   align-items: center;
   gap: 30px;
 }
-
-.active-link {
+.nav a {
   text-decoration: none;
+  font-size: 18px;
+  font-weight: 500;
+}
+.nav .active {
+  text-decoration: underline;
 }
